@@ -1,0 +1,8 @@
+---- IsBadBlock Matches (7 in 4 files) ----
+Main.c:	bl IsBadBlock
+Main.c:                         if(!IsBadBlock(BlockNum<<(p_shift+b_shift_p))){
+my_boot.PS:IsBadBlock
+my_boot.PS:IsBadBlock
+Nand.c:       IsBadBlock:
+Nand.c:unsigned int IsBadBlock(unsigned int addr){
+Nand.h:unsigned int IsBadBlock(unsigned int addr);
